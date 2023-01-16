@@ -56,5 +56,5 @@ config :ueberauth, Ueberauth,
          github: {Ueberauth.Strategy.Github, [default_scope: "user:email"]}
        ]
 config :ueberauth, Ueberauth.Strategy.Github.OAuth,
-       client_id: "112ed7360b36a0079f9f",
-       client_secret: "5062e7c89fed6b4ddfc7132b029b1d445a3e02ac"
+       client_id: "your-client-id",
+       client_secret: "your-client-secret"
